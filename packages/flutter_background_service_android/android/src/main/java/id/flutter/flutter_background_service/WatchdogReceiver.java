@@ -63,7 +63,7 @@ public class WatchdogReceiver extends BroadcastReceiver {
                         context.startService(new Intent(context, BackgroundService.class));
                     }
                 }
-            } catch (Exception ignored) {
+            } catch (Throwable ignored) {
 
             }
         }
